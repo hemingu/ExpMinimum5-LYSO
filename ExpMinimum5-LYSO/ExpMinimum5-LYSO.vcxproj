@@ -75,7 +75,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\root_v5.34.23\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\root_v5.34.23\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libCore.lib;libRIO.lib;libTree.lib;libHist.lib;libGpad.lib;libGui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -111,6 +116,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADCInfo.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Const.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AH2017Jul03_171517.root" />
+    <None Include="AH2017Jul03_171843.root" />
+    <None Include="AH2017Jul03_173411.root" />
+    <None Include="AH2017Jul03_181754.root" />
+    <None Include="AH2017Jul03_184020.root" />
+    <None Include="AH2017Jul03_185646.root" />
+    <None Include="AH2017Jul03_192734.root" />
+    <None Include="AH2017Jul03_194927.root" />
+    <None Include="AH2017Jun27_173314.root" />
+    <None Include="AH2017Jun27_174318.root" />
+    <None Include="fileList.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

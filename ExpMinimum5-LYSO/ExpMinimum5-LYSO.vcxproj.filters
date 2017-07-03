@@ -14,4 +14,55 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADCInfo.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AH2017Jul03_194927.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jun27_173314.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jun27_174318.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="fileList.csv">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_171517.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_171843.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_173411.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_181754.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_184020.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_185646.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="AH2017Jul03_192734.root">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
 </Project>
